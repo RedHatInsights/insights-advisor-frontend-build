@@ -22,7 +22,8 @@ node {
             sh '''
                 eval `ssh-agent`
                 ssh-add "$insightsbot"
-                ./.jenkins/deploy.sh
+                cd dist
+                rsync -arv -e "ssh -2" * sshacs@unprotected.upload.akamai.com:/114034/insights/platform/advisor/
             '''
         }
     }
