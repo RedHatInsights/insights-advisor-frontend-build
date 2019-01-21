@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{814:function(e,a,n){"use strict";n.r(a);var r=n(1),t=n.n(r),c=n(0),s=function(e){return t.a.createElement("div",{className:"summary-chart","widget-type":"InsightsSummaryChart"},t.a.createElement("ul",null," ",e.children," "))};s.propTypes={children:n.n(c).a.array},a.default=s}}]);
+//# sourceMappingURL=../sourcemaps/14.js.map
