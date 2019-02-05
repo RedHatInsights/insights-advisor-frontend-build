@@ -1,6 +1,6 @@
 {
   "app_name": "advisor",
-  "src_hash": "458cba3b2a4853aafb695ea3341eca8c464b417b",
+  "src_hash": "f9c6f4e537d298f95565a562cf65f99268bbe2c0",
   "src_tag": "",
   "src_branch": "master",
   "npm_info": {
@@ -23,9 +23,9 @@
       "resolved": "https://registry.npmjs.org/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.3.0.tgz"
     },
     "@babel/plugin-proposal-object-rest-spread": {
-      "version": "7.3.1",
-      "from": "@babel/plugin-proposal-object-rest-spread@7.3.1",
-      "resolved": "https://registry.npmjs.org/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.3.1.tgz"
+      "version": "7.3.2",
+      "from": "@babel/plugin-proposal-object-rest-spread@7.3.2",
+      "resolved": "https://registry.npmjs.org/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.3.2.tgz"
     },
     "@babel/plugin-syntax-dynamic-import": {
       "version": "7.2.0",
@@ -63,34 +63,34 @@
       "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.3.1.tgz"
     },
     "@patternfly/patternfly-next": {
-      "version": "1.0.171",
-      "from": "@patternfly/patternfly-next@1.0.171",
-      "resolved": "https://registry.npmjs.org/@patternfly/patternfly-next/-/patternfly-next-1.0.171.tgz"
+      "version": "1.0.175",
+      "from": "@patternfly/patternfly-next@1.0.175",
+      "resolved": "https://registry.npmjs.org/@patternfly/patternfly-next/-/patternfly-next-1.0.175.tgz"
     },
     "@patternfly/react-charts": {
-      "version": "1.2.7",
-      "from": "@patternfly/react-charts@1.2.7",
-      "resolved": "https://registry.npmjs.org/@patternfly/react-charts/-/react-charts-1.2.7.tgz"
+      "version": "1.4.3",
+      "from": "@patternfly/react-charts@1.4.3",
+      "resolved": "https://registry.npmjs.org/@patternfly/react-charts/-/react-charts-1.4.3.tgz"
     },
     "@patternfly/react-core": {
-      "version": "1.51.4",
-      "from": "@patternfly/react-core@1.51.4",
-      "resolved": "https://registry.npmjs.org/@patternfly/react-core/-/react-core-1.51.4.tgz"
+      "version": "1.51.6",
+      "from": "@patternfly/react-core@1.51.6",
+      "resolved": "https://registry.npmjs.org/@patternfly/react-core/-/react-core-1.51.6.tgz"
     },
     "@patternfly/react-icons": {
-      "version": "2.10.3",
-      "from": "@patternfly/react-icons@2.10.3",
-      "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-2.10.3.tgz"
+      "version": "2.10.5",
+      "from": "@patternfly/react-icons@2.10.5",
+      "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-2.10.5.tgz"
     },
     "@red-hat-insights/insights-frontend-components": {
-      "version": "3.33.48",
-      "from": "@red-hat-insights/insights-frontend-components@3.33.48",
-      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.33.48.tgz"
+      "version": "3.33.50",
+      "from": "@red-hat-insights/insights-frontend-components@3.33.50",
+      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.33.50.tgz"
     },
     "acorn": {
-      "version": "6.0.6",
-      "from": "acorn@6.0.6",
-      "resolved": "https://registry.npmjs.org/acorn/-/acorn-6.0.6.tgz"
+      "version": "6.0.7",
+      "from": "acorn@6.0.7",
+      "resolved": "https://registry.npmjs.org/acorn/-/acorn-6.0.7.tgz"
     },
     "axios": {
       "version": "0.18.0",
@@ -148,9 +148,9 @@
       "resolved": "https://registry.npmjs.org/create-react-class/-/create-react-class-15.6.3.tgz"
     },
     "cross-fetch": {
-      "version": "3.0.0",
-      "from": "cross-fetch@3.0.0",
-      "resolved": "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.0.0.tgz"
+      "version": "3.0.1",
+      "from": "cross-fetch@3.0.1",
+      "resolved": "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.0.1.tgz"
     },
     "css-loader": {
       "version": "2.1.0",
@@ -158,9 +158,9 @@
       "resolved": "https://registry.npmjs.org/css-loader/-/css-loader-2.1.0.tgz"
     },
     "d3": {
-      "version": "5.8.0",
-      "from": "d3@5.8.0",
-      "resolved": "https://registry.npmjs.org/d3/-/d3-5.8.0.tgz"
+      "version": "5.8.2",
+      "from": "d3@5.8.2",
+      "resolved": "https://registry.npmjs.org/d3/-/d3-5.8.2.tgz"
     },
     "enzyme": {
       "version": "3.8.0",
@@ -168,9 +168,9 @@
       "resolved": "https://registry.npmjs.org/enzyme/-/enzyme-3.8.0.tgz"
     },
     "enzyme-adapter-react-16": {
-      "version": "1.8.0",
-      "from": "enzyme-adapter-react-16@1.8.0",
-      "resolved": "https://registry.npmjs.org/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.8.0.tgz"
+      "version": "1.9.0",
+      "from": "enzyme-adapter-react-16@1.9.0",
+      "resolved": "https://registry.npmjs.org/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.9.0.tgz"
     },
     "enzyme-to-json": {
       "version": "3.3.5",
@@ -178,9 +178,9 @@
       "resolved": "https://registry.npmjs.org/enzyme-to-json/-/enzyme-to-json-3.3.5.tgz"
     },
     "eslint": {
-      "version": "5.12.1",
-      "from": "eslint@5.12.1",
-      "resolved": "https://registry.npmjs.org/eslint/-/eslint-5.12.1.tgz"
+      "version": "5.13.0",
+      "from": "eslint@5.13.0",
+      "resolved": "https://registry.npmjs.org/eslint/-/eslint-5.13.0.tgz"
     },
     "eslint-config-prettier": {
       "version": "4.0.0",
@@ -188,9 +188,9 @@
       "resolved": "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-4.0.0.tgz"
     },
     "eslint-loader": {
-      "version": "2.1.1",
-      "from": "eslint-loader@2.1.1",
-      "resolved": "https://registry.npmjs.org/eslint-loader/-/eslint-loader-2.1.1.tgz"
+      "version": "2.1.2",
+      "from": "eslint-loader@2.1.2",
+      "resolved": "https://registry.npmjs.org/eslint-loader/-/eslint-loader-2.1.2.tgz"
     },
     "eslint-plugin-react": {
       "version": "7.12.4",
@@ -278,9 +278,9 @@
       "resolved": "https://registry.npmjs.org/react/-/react-16.7.0.tgz"
     },
     "react-content-loader": {
-      "version": "4.0.0",
-      "from": "react-content-loader@4.0.0",
-      "resolved": "https://registry.npmjs.org/react-content-loader/-/react-content-loader-4.0.0.tgz"
+      "version": "4.0.1",
+      "from": "react-content-loader@4.0.1",
+      "resolved": "https://registry.npmjs.org/react-content-loader/-/react-content-loader-4.0.1.tgz"
     },
     "react-dom": {
       "version": "16.7.0",
@@ -323,9 +323,9 @@
       "resolved": "https://registry.npmjs.org/redux-logger/-/redux-logger-3.0.6.tgz"
     },
     "redux-promise-middleware": {
-      "version": "5.1.1",
-      "from": "redux-promise-middleware@5.1.1",
-      "resolved": "https://registry.npmjs.org/redux-promise-middleware/-/redux-promise-middleware-5.1.1.tgz"
+      "version": "6.0.0",
+      "from": "redux-promise-middleware@6.0.0",
+      "resolved": "https://registry.npmjs.org/redux-promise-middleware/-/redux-promise-middleware-6.0.0.tgz"
     },
     "regenerator-runtime": {
       "version": "0.13.1",
@@ -363,9 +363,9 @@
       "resolved": "https://registry.npmjs.org/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-3.2.0.tgz"
     },
     "stylelint-scss": {
-      "version": "3.5.1",
-      "from": "stylelint-scss@3.5.1",
-      "resolved": "https://registry.npmjs.org/stylelint-scss/-/stylelint-scss-3.5.1.tgz"
+      "version": "3.5.2",
+      "from": "stylelint-scss@3.5.2",
+      "resolved": "https://registry.npmjs.org/stylelint-scss/-/stylelint-scss-3.5.2.tgz"
     },
     "topojson": {
       "version": "3.0.2",
@@ -373,9 +373,9 @@
       "resolved": "https://registry.npmjs.org/topojson/-/topojson-3.0.2.tgz"
     },
     "webpack": {
-      "version": "4.29.0",
-      "from": "webpack@4.29.0",
-      "resolved": "https://registry.npmjs.org/webpack/-/webpack-4.29.0.tgz"
+      "version": "4.29.1",
+      "from": "webpack@4.29.1",
+      "resolved": "https://registry.npmjs.org/webpack/-/webpack-4.29.1.tgz"
     },
     "webpack-bundle-analyzer": {
       "version": "3.0.3",
@@ -383,9 +383,9 @@
       "resolved": "https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.0.3.tgz"
     },
     "webpack-cli": {
-      "version": "3.2.1",
-      "from": "webpack-cli@3.2.1",
-      "resolved": "https://registry.npmjs.org/webpack-cli/-/webpack-cli-3.2.1.tgz"
+      "version": "3.2.3",
+      "from": "webpack-cli@3.2.3",
+      "resolved": "https://registry.npmjs.org/webpack-cli/-/webpack-cli-3.2.3.tgz"
     },
     "webpack-dev-server": {
       "version": "3.1.14",
@@ -406,7 +406,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "980",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/489023799"
+    "build_number": "983",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/489056460"
   }
 }
