@@ -1,6 +1,6 @@
 {
   "app_name": "advisor",
-  "src_hash": "d5d70e108ca4c3c16ffa00f21b112124af0c03b4",
+  "src_hash": "7df47f2f18474ecd6b868bc8e26e2fae09e0d3cc",
   "src_tag": "",
   "src_branch": "master",
   "npm_info": {
@@ -88,9 +88,9 @@
       "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-2.10.5.tgz"
     },
     "@red-hat-insights/insights-frontend-components": {
-      "version": "3.33.50",
-      "from": "@red-hat-insights/insights-frontend-components@3.33.50",
-      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.33.50.tgz"
+      "version": "3.33.54",
+      "from": "@red-hat-insights/insights-frontend-components@3.33.54",
+      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.33.54.tgz"
     },
     "acorn": {
       "version": "6.0.7",
@@ -100,7 +100,7 @@
     "axios": {
       "version": "0.18.0",
       "from": "axios@0.18.0",
-      "resolved": "https://registry.npmjs.org/axios/-/axios-0.18.0.tgz"
+      "resolved": "http://registry.npmjs.org/axios/-/axios-0.18.0.tgz"
     },
     "babel-core": {
       "version": "7.0.0-bridge.0",
@@ -411,7 +411,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "991",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/489164707"
+    "build_number": "1005",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/489674895"
   }
 }
