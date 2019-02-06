@@ -1,6 +1,6 @@
 {
   "app_name": "advisor",
-  "src_hash": "eb7fa6659dfc739d8ccb475a554e2aab9c377227",
+  "src_hash": "7df47f2f18474ecd6b868bc8e26e2fae09e0d3cc",
   "src_tag": "",
   "src_branch": "prod-beta",
   "npm_info": {
@@ -62,6 +62,11 @@
       "from": "@babel/runtime@7.3.1",
       "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.3.1.tgz"
     },
+    "@patternfly/patternfly": {
+      "version": "1.0.181",
+      "from": "@patternfly/patternfly@1.0.181",
+      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-1.0.181.tgz"
+    },
     "@patternfly/patternfly-next": {
       "version": "1.0.175",
       "from": "@patternfly/patternfly-next@1.0.175",
@@ -83,9 +88,9 @@
       "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-2.10.5.tgz"
     },
     "@red-hat-insights/insights-frontend-components": {
-      "version": "3.33.50",
-      "from": "@red-hat-insights/insights-frontend-components@3.33.50",
-      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.33.50.tgz"
+      "version": "3.33.54",
+      "from": "@red-hat-insights/insights-frontend-components@3.33.54",
+      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.33.54.tgz"
     },
     "acorn": {
       "version": "6.0.7",
@@ -95,7 +100,7 @@
     "axios": {
       "version": "0.18.0",
       "from": "axios@0.18.0",
-      "resolved": "https://registry.npmjs.org/axios/-/axios-0.18.0.tgz"
+      "resolved": "http://registry.npmjs.org/axios/-/axios-0.18.0.tgz"
     },
     "babel-core": {
       "version": "7.0.0-bridge.0",
@@ -108,9 +113,9 @@
       "resolved": "https://registry.npmjs.org/babel-eslint/-/babel-eslint-10.0.1.tgz"
     },
     "babel-jest": {
-      "version": "24.0.0",
-      "from": "babel-jest@24.0.0",
-      "resolved": "https://registry.npmjs.org/babel-jest/-/babel-jest-24.0.0.tgz"
+      "version": "24.1.0",
+      "from": "babel-jest@24.1.0",
+      "resolved": "https://registry.npmjs.org/babel-jest/-/babel-jest-24.1.0.tgz"
     },
     "babel-loader": {
       "version": "8.0.5",
@@ -228,9 +233,9 @@
       "resolved": "https://registry.npmjs.org/identity-obj-proxy/-/identity-obj-proxy-3.0.0.tgz"
     },
     "jest": {
-      "version": "24.0.0",
-      "from": "jest@24.0.0",
-      "resolved": "https://registry.npmjs.org/jest/-/jest-24.0.0.tgz"
+      "version": "24.1.0",
+      "from": "jest@24.1.0",
+      "resolved": "https://registry.npmjs.org/jest/-/jest-24.1.0.tgz"
     },
     "lodash": {
       "version": "4.17.11",
@@ -406,7 +411,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "986",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/489099802"
+    "build_number": "1006",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/489701475"
   }
 }
