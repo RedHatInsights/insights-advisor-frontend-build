@@ -1,6 +1,6 @@
 {
   "app_name": "advisor",
-  "src_hash": "80e8ffc9a720d1006851b70f0e3bff907ef3ed13",
+  "src_hash": "57be855843ad32f309d001fb12daea17f04ef167",
   "src_tag": "",
   "src_branch": "prod-stable",
   "npm_info": {
@@ -63,9 +63,9 @@
       "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.3.1.tgz"
     },
     "@patternfly/patternfly": {
-      "version": "1.0.181",
-      "from": "@patternfly/patternfly@1.0.181",
-      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-1.0.181.tgz"
+      "version": "1.0.188",
+      "from": "@patternfly/patternfly@1.0.188",
+      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-1.0.188.tgz"
     },
     "@patternfly/patternfly-next": {
       "version": "1.0.175",
@@ -83,24 +83,24 @@
       "resolved": "https://registry.npmjs.org/@patternfly/react-core/-/react-core-1.51.6.tgz"
     },
     "@patternfly/react-icons": {
-      "version": "2.10.5",
-      "from": "@patternfly/react-icons@2.10.5",
-      "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-2.10.5.tgz"
+      "version": "2.10.6",
+      "from": "@patternfly/react-icons@2.10.6",
+      "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-2.10.6.tgz"
     },
     "@red-hat-insights/insights-frontend-components": {
-      "version": "3.33.54",
-      "from": "@red-hat-insights/insights-frontend-components@3.33.54",
-      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.33.54.tgz"
+      "version": "3.33.63",
+      "from": "@red-hat-insights/insights-frontend-components@3.33.63",
+      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.33.63.tgz"
     },
     "acorn": {
-      "version": "6.0.7",
-      "from": "acorn@6.0.7",
-      "resolved": "https://registry.npmjs.org/acorn/-/acorn-6.0.7.tgz"
+      "version": "6.1.0",
+      "from": "acorn@6.1.0",
+      "resolved": "https://registry.npmjs.org/acorn/-/acorn-6.1.0.tgz"
     },
     "axios": {
       "version": "0.18.0",
       "from": "axios@0.18.0",
-      "resolved": "http://registry.npmjs.org/axios/-/axios-0.18.0.tgz"
+      "resolved": "https://registry.npmjs.org/axios/-/axios-0.18.0.tgz"
     },
     "babel-core": {
       "version": "7.0.0-bridge.0",
@@ -163,9 +163,9 @@
       "resolved": "https://registry.npmjs.org/css-loader/-/css-loader-2.1.0.tgz"
     },
     "d3": {
-      "version": "5.8.2",
-      "from": "d3@5.8.2",
-      "resolved": "https://registry.npmjs.org/d3/-/d3-5.8.2.tgz"
+      "version": "5.9.1",
+      "from": "d3@5.9.1",
+      "resolved": "https://registry.npmjs.org/d3/-/d3-5.9.1.tgz"
     },
     "enzyme": {
       "version": "3.8.0",
@@ -173,9 +173,9 @@
       "resolved": "https://registry.npmjs.org/enzyme/-/enzyme-3.8.0.tgz"
     },
     "enzyme-adapter-react-16": {
-      "version": "1.9.0",
-      "from": "enzyme-adapter-react-16@1.9.0",
-      "resolved": "https://registry.npmjs.org/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.9.0.tgz"
+      "version": "1.9.1",
+      "from": "enzyme-adapter-react-16@1.9.1",
+      "resolved": "https://registry.npmjs.org/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.9.1.tgz"
     },
     "enzyme-to-json": {
       "version": "3.3.5",
@@ -273,14 +273,14 @@
       "resolved": "https://registry.npmjs.org/npm-run-all/-/npm-run-all-4.1.5.tgz"
     },
     "prop-types": {
-      "version": "15.6.2",
-      "from": "prop-types@15.6.2",
-      "resolved": "https://registry.npmjs.org/prop-types/-/prop-types-15.6.2.tgz"
+      "version": "15.7.1",
+      "from": "prop-types@15.7.1",
+      "resolved": "https://registry.npmjs.org/prop-types/-/prop-types-15.7.1.tgz"
     },
     "react": {
-      "version": "16.7.0",
-      "from": "react@16.7.0",
-      "resolved": "https://registry.npmjs.org/react/-/react-16.7.0.tgz"
+      "version": "16.8.1",
+      "from": "react@16.8.1",
+      "resolved": "https://registry.npmjs.org/react/-/react-16.8.1.tgz"
     },
     "react-content-loader": {
       "version": "4.0.1",
@@ -288,9 +288,9 @@
       "resolved": "https://registry.npmjs.org/react-content-loader/-/react-content-loader-4.0.1.tgz"
     },
     "react-dom": {
-      "version": "16.7.0",
-      "from": "react-dom@16.7.0",
-      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-16.7.0.tgz"
+      "version": "16.8.1",
+      "from": "react-dom@16.8.1",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-16.8.1.tgz"
     },
     "react-markdown": {
       "version": "4.0.6",
@@ -308,9 +308,9 @@
       "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-4.3.1.tgz"
     },
     "react-test-renderer": {
-      "version": "16.7.0",
-      "from": "react-test-renderer@16.7.0",
-      "resolved": "https://registry.npmjs.org/react-test-renderer/-/react-test-renderer-16.7.0.tgz"
+      "version": "16.8.1",
+      "from": "react-test-renderer@16.8.1",
+      "resolved": "https://registry.npmjs.org/react-test-renderer/-/react-test-renderer-16.8.1.tgz"
     },
     "react-timeago": {
       "version": "4.3.0",
@@ -328,9 +328,9 @@
       "resolved": "https://registry.npmjs.org/redux-logger/-/redux-logger-3.0.6.tgz"
     },
     "redux-promise-middleware": {
-      "version": "6.0.0",
-      "from": "redux-promise-middleware@6.0.0",
-      "resolved": "https://registry.npmjs.org/redux-promise-middleware/-/redux-promise-middleware-6.0.0.tgz"
+      "version": "6.0.1",
+      "from": "redux-promise-middleware@6.0.1",
+      "resolved": "https://registry.npmjs.org/redux-promise-middleware/-/redux-promise-middleware-6.0.1.tgz"
     },
     "regenerator-runtime": {
       "version": "0.13.1",
@@ -368,9 +368,9 @@
       "resolved": "https://registry.npmjs.org/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-3.2.0.tgz"
     },
     "stylelint-scss": {
-      "version": "3.5.2",
-      "from": "stylelint-scss@3.5.2",
-      "resolved": "https://registry.npmjs.org/stylelint-scss/-/stylelint-scss-3.5.2.tgz"
+      "version": "3.5.3",
+      "from": "stylelint-scss@3.5.3",
+      "resolved": "https://registry.npmjs.org/stylelint-scss/-/stylelint-scss-3.5.3.tgz"
     },
     "topojson": {
       "version": "3.0.2",
@@ -378,9 +378,9 @@
       "resolved": "https://registry.npmjs.org/topojson/-/topojson-3.0.2.tgz"
     },
     "webpack": {
-      "version": "4.29.1",
-      "from": "webpack@4.29.1",
-      "resolved": "https://registry.npmjs.org/webpack/-/webpack-4.29.1.tgz"
+      "version": "4.29.3",
+      "from": "webpack@4.29.3",
+      "resolved": "https://registry.npmjs.org/webpack/-/webpack-4.29.3.tgz"
     },
     "webpack-bundle-analyzer": {
       "version": "3.0.3",
@@ -411,7 +411,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "1047",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/491817841"
+    "build_number": "1054",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/491833810"
   }
 }
