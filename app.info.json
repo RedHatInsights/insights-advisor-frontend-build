@@ -1,6 +1,6 @@
 {
   "app_name": "advisor",
-  "src_hash": "e77f7caef15c55426c183c57abdb78f30bdd04e9",
+  "src_hash": "cef862157c670872674d86d8ae1fde6c86dbb5ec",
   "src_tag": "",
   "src_branch": "master",
   "npm_info": {
@@ -88,9 +88,9 @@
       "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-2.10.6.tgz"
     },
     "@red-hat-insights/insights-frontend-components": {
-      "version": "3.33.63",
-      "from": "@red-hat-insights/insights-frontend-components@3.33.63",
-      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.33.63.tgz"
+      "version": "3.33.65",
+      "from": "@red-hat-insights/insights-frontend-components@3.33.65",
+      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.33.65.tgz"
     },
     "acorn": {
       "version": "6.1.0",
@@ -411,7 +411,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "1057",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/491839880"
+    "build_number": "1078",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/493247757"
   }
 }
