@@ -1,6 +1,6 @@
 {
   "app_name": "advisor",
-  "src_hash": "bba5ada4b45db77be8d7a22aefbdac2fce541233",
+  "src_hash": "6ad2e5e58184d27d0f4c8932ad22dec85180bcaa",
   "src_tag": "",
   "src_branch": "master",
   "npm_info": {
@@ -411,7 +411,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "1134",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/496820020"
+    "build_number": "1139",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/497104106"
   }
 }
