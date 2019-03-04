@@ -1,6 +1,6 @@
 {
   "app_name": "advisor",
-  "src_hash": "0dd45104403ebb4e12a4882270d8dacbb93dfb10",
+  "src_hash": "f480ee2eb484640eae1ef9e1448ad3adfbc05afe",
   "src_tag": "",
   "src_branch": "master",
   "npm_info": {
@@ -63,9 +63,9 @@
       "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.3.4.tgz"
     },
     "@patternfly/patternfly": {
-      "version": "1.0.213",
-      "from": "@patternfly/patternfly@1.0.213",
-      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-1.0.213.tgz"
+      "version": "1.0.218",
+      "from": "@patternfly/patternfly@1.0.218",
+      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-1.0.218.tgz"
     },
     "@patternfly/patternfly-next": {
       "version": "1.0.175",
@@ -88,9 +88,9 @@
       "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-3.0.2.tgz"
     },
     "@red-hat-insights/insights-frontend-components": {
-      "version": "3.35.6",
-      "from": "@red-hat-insights/insights-frontend-components@3.35.6",
-      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.35.6.tgz"
+      "version": "3.36.0",
+      "from": "@red-hat-insights/insights-frontend-components@3.36.0",
+      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.36.0.tgz"
     },
     "acorn": {
       "version": "6.1.1",
@@ -183,9 +183,9 @@
       "resolved": "https://registry.npmjs.org/enzyme-to-json/-/enzyme-to-json-3.3.5.tgz"
     },
     "eslint": {
-      "version": "5.14.1",
-      "from": "eslint@5.14.1",
-      "resolved": "https://registry.npmjs.org/eslint/-/eslint-5.14.1.tgz"
+      "version": "5.15.0",
+      "from": "eslint@5.15.0",
+      "resolved": "https://registry.npmjs.org/eslint/-/eslint-5.15.0.tgz"
     },
     "eslint-config-prettier": {
       "version": "4.1.0",
@@ -383,9 +383,9 @@
       "resolved": "https://registry.npmjs.org/webpack/-/webpack-4.29.6.tgz"
     },
     "webpack-bundle-analyzer": {
-      "version": "3.0.4",
-      "from": "webpack-bundle-analyzer@3.0.4",
-      "resolved": "https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.0.4.tgz"
+      "version": "3.1.0",
+      "from": "webpack-bundle-analyzer@3.1.0",
+      "resolved": "https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.1.0.tgz"
     },
     "webpack-cli": {
       "version": "3.2.3",
@@ -411,7 +411,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "1165",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/501461660"
+    "build_number": "1167",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/501466281"
   }
 }
