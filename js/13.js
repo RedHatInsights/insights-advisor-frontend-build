@@ -1,2 +1,2 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{613:function(n,i,e){"use strict";e.r(i);var r=e(1),a=e.n(r),o=function(n){var i=n.condition,e=n.wrap,r=n.children;return i?e(r):r};o.propTypes={condition:a.a.any.isRequired,wrap:a.a.any.isRequired,children:a.a.any.isRequired},i.default=o}}]);
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{622:function(e,a,n){"use strict";n.r(a);var r=n(2),t=n.n(r),c=n(1),s=function(e){return t.a.createElement("div",{className:"summary-chart","widget-type":"InsightsSummaryChart"},t.a.createElement("ul",null," ",e.children," "))};s.propTypes={children:n.n(c).a.array},a.default=s}}]);
 //# sourceMappingURL=../sourcemaps/13.js.map
