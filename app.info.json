@@ -1,6 +1,6 @@
 {
   "app_name": "advisor",
-  "src_hash": "e553df412221152c13fc377c9301afbf79c1faf0",
+  "src_hash": "3a3e1fac09db8305e329ca6e1e2225d6e5bb8284",
   "src_tag": "",
   "src_branch": "ci-stable",
   "npm_info": {
@@ -63,9 +63,9 @@
       "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.3.4.tgz"
     },
     "@patternfly/patternfly": {
-      "version": "1.0.222",
-      "from": "@patternfly/patternfly@1.0.222",
-      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-1.0.222.tgz"
+      "version": "1.0.226",
+      "from": "@patternfly/patternfly@1.0.226",
+      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-1.0.226.tgz"
     },
     "@patternfly/react-charts": {
       "version": "2.1.5",
@@ -78,14 +78,19 @@
       "resolved": "https://registry.npmjs.org/@patternfly/react-core/-/react-core-2.3.6.tgz"
     },
     "@patternfly/react-icons": {
-      "version": "3.1.2",
-      "from": "@patternfly/react-icons@3.1.2",
-      "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-3.1.2.tgz"
+      "version": "3.2.0",
+      "from": "@patternfly/react-icons@3.2.0",
+      "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-3.2.0.tgz"
+    },
+    "@patternfly/react-table": {
+      "version": "1.1.1",
+      "from": "@patternfly/react-table@1.1.1",
+      "resolved": "https://registry.npmjs.org/@patternfly/react-table/-/react-table-1.1.1.tgz"
     },
     "@red-hat-insights/insights-frontend-components": {
-      "version": "3.39.2",
-      "from": "@red-hat-insights/insights-frontend-components@3.39.2",
-      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.39.2.tgz"
+      "version": "3.39.5",
+      "from": "@red-hat-insights/insights-frontend-components@3.39.5",
+      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.39.5.tgz"
     },
     "acorn": {
       "version": "6.1.1",
@@ -108,9 +113,9 @@
       "resolved": "https://registry.npmjs.org/babel-eslint/-/babel-eslint-10.0.1.tgz"
     },
     "babel-jest": {
-      "version": "24.3.1",
-      "from": "babel-jest@24.3.1",
-      "resolved": "https://registry.npmjs.org/babel-jest/-/babel-jest-24.3.1.tgz"
+      "version": "24.4.0",
+      "from": "babel-jest@24.4.0",
+      "resolved": "https://registry.npmjs.org/babel-jest/-/babel-jest-24.4.0.tgz"
     },
     "babel-loader": {
       "version": "8.0.5",
@@ -138,9 +143,9 @@
       "resolved": "https://registry.npmjs.org/clean-webpack-plugin/-/clean-webpack-plugin-2.0.0.tgz"
     },
     "copy-webpack-plugin": {
-      "version": "5.0.0",
-      "from": "copy-webpack-plugin@5.0.0",
-      "resolved": "https://registry.npmjs.org/copy-webpack-plugin/-/copy-webpack-plugin-5.0.0.tgz"
+      "version": "5.0.1",
+      "from": "copy-webpack-plugin@5.0.1",
+      "resolved": "https://registry.npmjs.org/copy-webpack-plugin/-/copy-webpack-plugin-5.0.1.tgz"
     },
     "create-react-class": {
       "version": "15.6.3",
@@ -228,9 +233,9 @@
       "resolved": "https://registry.npmjs.org/identity-obj-proxy/-/identity-obj-proxy-3.0.0.tgz"
     },
     "jest": {
-      "version": "24.3.1",
-      "from": "jest@24.3.1",
-      "resolved": "https://registry.npmjs.org/jest/-/jest-24.3.1.tgz"
+      "version": "24.4.0",
+      "from": "jest@24.4.0",
+      "resolved": "https://registry.npmjs.org/jest/-/jest-24.4.0.tgz"
     },
     "lodash": {
       "version": "4.17.11",
@@ -406,7 +411,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "1244",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/505922710"
+    "build_number": "1272",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/506969296"
   }
 }
