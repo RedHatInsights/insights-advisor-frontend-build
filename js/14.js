@@ -1,2 +1,2 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{619:function(a,e,n){"use strict";n.r(e);var r=n(2),t=n.n(r),s=n(1),c=n.n(s),i=function(a){return t.a.createElement("div",{className:"summary-chart ".concat(a.className),"widget-type":"InsightsSummaryChart"},t.a.createElement("ul",null," ",a.children," "))};i.propTypes={children:c.a.array,className:c.a.string},e.default=i}}]);
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{619:function(n,i,e){"use strict";e.r(i);var r=e(1),a=e.n(r),o=function(n){var i=n.condition,e=n.wrap,r=n.children;return i?e(r):r};o.propTypes={condition:a.a.any.isRequired,wrap:a.a.any.isRequired,children:a.a.any.isRequired},i.default=o}}]);
 //# sourceMappingURL=../sourcemaps/14.js.map
