@@ -1,6 +1,6 @@
 {
   "app_name": "advisor",
-  "src_hash": "87a3607fd33ec55d1d30cae5c939b7440c7a074c",
+  "src_hash": "19fc3f5c12e758afcecef43998bc0cdba321ab6d",
   "src_tag": "",
   "src_branch": "master",
   "npm_info": {
@@ -88,9 +88,9 @@
       "resolved": "https://registry.npmjs.org/@patternfly/react-table/-/react-table-1.3.4.tgz"
     },
     "@red-hat-insights/insights-frontend-components": {
-      "version": "3.39.10",
-      "from": "@red-hat-insights/insights-frontend-components@3.39.10",
-      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.39.10.tgz"
+      "version": "3.40.1",
+      "from": "@red-hat-insights/insights-frontend-components@3.40.1",
+      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.40.1.tgz"
     },
     "acorn": {
       "version": "6.1.1",
@@ -411,7 +411,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "1347",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/511594021"
+    "build_number": "1349",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/511596111"
   }
 }
