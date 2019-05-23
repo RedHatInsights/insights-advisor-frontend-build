@@ -1,0 +1,12 @@
+:root {
+  --ins-color--orange: #ec7a08; }
+
+.disabled {
+  color: var(--pf-global--disabled-color--100); }
+
+.border-top {
+  margin-top: var(--pf-global--spacer--md);
+  padding-top: var(--pf-global--spacer--md);
+  border-top: 1px solid var(--pf-global--BorderColor--light-200);
+  font-size: var(--pf-global--FontSize--sm); }
+

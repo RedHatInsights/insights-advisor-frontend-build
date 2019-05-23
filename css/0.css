@@ -1,0 +1,14 @@
+.chart-container {
+  height: 200px !important; }
+  .chart-container .VictoryContainer {
+    left: -12px;
+    top: -36px; }
+
+.chart-inline svg:not(:root) {
+  overflow: visible; }
+
+.chart-inline .pf-l-grid {
+  width: 400px; }
+  .chart-inline .pf-l-grid .pf-l-grid__item {
+    width: 200px; }
+
