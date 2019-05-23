@@ -1,0 +1,10 @@
+.levelAlignOverride {
+  align-items: start; }
+
+.mainPaddingOverride {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.levelItemPaddingOverride {
+  padding-bottom: 32px; }
+

@@ -1,0 +1,9 @@
+nav.pf-c-breadcrumb ol {
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 0; }
+
+nav.pf-c-breadcrumb li {
+  text-transform: capitalize;
+  margin-top: 0; }
+
