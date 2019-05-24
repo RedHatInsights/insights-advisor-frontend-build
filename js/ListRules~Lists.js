@@ -18384,7 +18384,7 @@ function (_Component) {
       sortBy: {},
       sort: '-publish_date',
       externalFilters: {},
-      impacting: false,
+      impacting: true,
       limit: 10,
       offset: 0,
       reports_shown: true
@@ -18625,27 +18625,18 @@ function (_Component) {
       var _componentDidMount = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default()(
       /*#__PURE__*/
       _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
-        var _this$state5, offset, limit, reports_shown, sort, impacting, options;
-
+        var reports_shown, impacting;
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
           while (1) {
             switch (_context2.prev = _context2.next) {
               case 0:
-                _this$state5 = this.state, offset = _this$state5.offset, limit = _this$state5.limit, reports_shown = _this$state5.reports_shown, sort = _this$state5.sort;
+                reports_shown = this.state.reports_shown;
                 impacting = this.props.impacting || this.state.impacting;
                 _context2.next = 4;
                 return insights.chrome.auth.getUser();
 
               case 4:
-                options = _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_4___default()({
-                  offset: offset,
-                  limit: limit,
-                  impacting: impacting,
-                  reports_shown: reports_shown,
-                  sort: sort
-                }, this.props.externalFilters || {});
                 this.onSort(null, 2, 'desc');
-                this.props.fetchRules(options);
                 this.setState({
                   impacting: impacting,
                   externalFilters: _babel_runtime_helpers_objectSpread__WEBPACK_IMPORTED_MODULE_4___default()({}, this.props.externalFilters, {
@@ -18653,7 +18644,7 @@ function (_Component) {
                   })
                 });
 
-              case 8:
+              case 6:
               case "end":
                 return _context2.stop();
             }
@@ -18773,14 +18764,14 @@ function (_Component) {
       var _this$props = this.props,
           rulesFetchStatus = _this$props.rulesFetchStatus,
           rules = _this$props.rules;
-      var _this$state6 = this.state,
-          externalFilters = _this$state6.externalFilters,
-          offset = _this$state6.offset,
-          limit = _this$state6.limit,
-          impacting = _this$state6.impacting,
-          sortBy = _this$state6.sortBy,
-          cols = _this$state6.cols,
-          rows = _this$state6.rows;
+      var _this$state5 = this.state,
+          externalFilters = _this$state5.externalFilters,
+          offset = _this$state5.offset,
+          limit = _this$state5.limit,
+          impacting = _this$state5.impacting,
+          sortBy = _this$state5.sortBy,
+          cols = _this$state5.cols,
+          rows = _this$state5.rows;
       var page = offset / limit + 1;
       var results = rules.meta ? rules.meta.count : 0;
       return react__WEBPACK_IMPORTED_MODULE_14___default.a.createElement(_redhat_cloud_services_frontend_components__WEBPACK_IMPORTED_MODULE_16__["Main"], null, react__WEBPACK_IMPORTED_MODULE_14___default.a.createElement(_patternfly_react_core__WEBPACK_IMPORTED_MODULE_20__["Stack"], {
