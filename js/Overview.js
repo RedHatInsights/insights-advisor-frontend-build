@@ -172,7 +172,7 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_redhat_cloud_services_frontend_components__WEBPACK_IMPORTED_MODULE_15__["PageHeader"], null, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_redhat_cloud_services_frontend_components__WEBPACK_IMPORTED_MODULE_15__["PageHeaderTitle"], {
         title: "Overview"
       })), total !== 0 ? react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_redhat_cloud_services_frontend_components__WEBPACK_IMPORTED_MODULE_15__["Main"], {
-        className: "pf-m-light mainPaddingOverride"
+        className: "pf-m-light mainPaddingOverride ins-test"
       }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_patternfly_react_core__WEBPACK_IMPORTED_MODULE_14__["Level"], {
         className: "levelAlignOverride"
       }, react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(_patternfly_react_core__WEBPACK_IMPORTED_MODULE_14__["LevelItem"], {
