@@ -1,11 +1,11 @@
 {
   "app_name": "insights",
-  "src_hash": "4fe7f868a04780e928cc808dff8b3e36fa050e6e",
+  "src_hash": "ede65a4d4f09a934d1519b534984e286375c66b4",
   "src_tag": "",
   "src_branch": "master",
   "travis": {
     "event_type": "push",
-    "build_number": "1660",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/539768740"
+    "build_number": "1664",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-advisor-frontend/builds/540897470"
   }
 }
