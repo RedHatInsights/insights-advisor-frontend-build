@@ -1,3 +1,4 @@
+@Library("github.com/RedHatInsights/insights-pipeline-lib")
 import groovy.json.JsonSlurper
 
 node {
@@ -46,9 +47,11 @@ node {
       }
 
       //run on a node with python on it
-      if (APP_NAME == "landing") {
+      if (APP_NAME == "storybook") {
         openShift.withNode(image: "docker-registry.default.svc:5000/jenkins/jenkins-slave-base-centos7-python36:latest") {
           //install python dependencies
+          sh "curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py"
+          sh "python get-pip.py"
           sh "python -m pip install -r requirements.txt"
           //Bust the current cache
           sh """
