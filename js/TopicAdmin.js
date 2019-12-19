@@ -1,2 +1,2 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{1009:function(n,e,t){"use strict";t.r(e);var a=t(2),r=t.n(a);e.default=function(){return r.a.createElement(r.a.Fragment,null,"hi")}}}]);
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{1010:function(n,e,t){"use strict";t.r(e);var a=t(2),r=t.n(a);e.default=function(){return r.a.createElement(r.a.Fragment,null,"hi")}}}]);
 //# sourceMappingURL=TopicAdmin.js.map
