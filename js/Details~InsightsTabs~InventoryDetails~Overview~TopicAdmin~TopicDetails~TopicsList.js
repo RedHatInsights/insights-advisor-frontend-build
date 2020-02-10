@@ -1,79 +1,79 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{555:function(e,t,r){var n;window,n=function(e,t,r,n){return function(e){var t={};function r(n){if(t[n])return t[n].exports;var o=t[n]={i:n,l:!1,exports:{}};return e[n].call(o.exports,o,o.exports,r),o.l=!0,o.exports}return r.m=e,r.c=t,r.d=function(e,t,n){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)r.d(n,o,function(t){return e[t]}.bind(null,o));return n},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="",r(r.s="./src/Components/Main/index.js")}({"../../node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":
-/*!*****************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js ***!
-  \*****************************************************************************************************************************/
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{456:function(e,t,r){var n;window,n=function(e,t,r,n){return function(e){var t={};function r(n){if(t[n])return t[n].exports;var o=t[n]={i:n,l:!1,exports:{}};return e[n].call(o.exports,o,o.exports,r),o.l=!0,o.exports}return r.m=e,r.c=t,r.d=function(e,t,n){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)r.d(n,o,function(t){return e[t]}.bind(null,o));return n},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="",r(r.s="./src/Components/Main/index.js")}({"../../node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":
+/*!**********************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */function(e,t){e.exports=function(e){if(Array.isArray(e)){for(var t=0,r=new Array(e.length);t<e.length;t++)r[t]=e[t];return r}}},"../../node_modules/@babel/runtime/helpers/assertThisInitialized.js":
-/*!*********************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
-  \*********************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */function(e,t){e.exports=function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}},"../../node_modules/@babel/runtime/helpers/classCallCheck.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/classCallCheck.js ***!
-  \**************************************************************************************************************************/
-/*! no static exports found */function(e,t){e.exports=function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}},"../../node_modules/@babel/runtime/helpers/createClass.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/createClass.js ***!
-  \***********************************************************************************************************************/
-/*! no static exports found */function(e,t){function r(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}e.exports=function(e,t,n){return t&&r(e.prototype,t),n&&r(e,n),e}},"../../node_modules/@babel/runtime/helpers/defineProperty.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/defineProperty.js ***!
-  \**************************************************************************************************************************/
-/*! no static exports found */function(e,t){e.exports=function(e,t,r){return t in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r,e}},"../../node_modules/@babel/runtime/helpers/extends.js":
 /*!*******************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/extends.js ***!
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/classCallCheck.js ***!
   \*******************************************************************************************************************/
+/*! no static exports found */function(e,t){e.exports=function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}},"../../node_modules/@babel/runtime/helpers/createClass.js":
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/createClass.js ***!
+  \****************************************************************************************************************/
+/*! no static exports found */function(e,t){function r(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}e.exports=function(e,t,n){return t&&r(e.prototype,t),n&&r(e,n),e}},"../../node_modules/@babel/runtime/helpers/defineProperty.js":
+/*!*******************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/defineProperty.js ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */function(e,t){e.exports=function(e,t,r){return t in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r,e}},"../../node_modules/@babel/runtime/helpers/extends.js":
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/extends.js ***!
+  \************************************************************************************************************/
 /*! no static exports found */function(e,t){function r(){return e.exports=r=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e},r.apply(this,arguments)}e.exports=r},"../../node_modules/@babel/runtime/helpers/getPrototypeOf.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
-  \**************************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
+  \*******************************************************************************************************************/
 /*! no static exports found */function(e,t){function r(t){return e.exports=r=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)},r(t)}e.exports=r},"../../node_modules/@babel/runtime/helpers/inherits.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/inherits.js ***!
-  \********************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/inherits.js ***!
+  \*************************************************************************************************************/
 /*! no static exports found */function(e,t,r){var n=r(/*! ./setPrototypeOf */"../../node_modules/@babel/runtime/helpers/setPrototypeOf.js");e.exports=function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&n(e,t)}},"../../node_modules/@babel/runtime/helpers/interopRequireDefault.js":
-/*!*********************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
-  \*********************************************************************************************************************************/
-/*! no static exports found */function(e,t){e.exports=function(e){return e&&e.__esModule?e:{default:e}}},"../../node_modules/@babel/runtime/helpers/interopRequireWildcard.js":
-/*!**********************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/interopRequireWildcard.js ***!
-  \**********************************************************************************************************************************/
-/*! no static exports found */function(e,t){e.exports=function(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var r in e)if(Object.prototype.hasOwnProperty.call(e,r)){var n=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,r):{};n.get||n.set?Object.defineProperty(t,r,n):t[r]=e[r]}return t.default=e,t}},"../../node_modules/@babel/runtime/helpers/iterableToArray.js":
-/*!***************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/iterableToArray.js ***!
-  \***************************************************************************************************************************/
-/*! no static exports found */function(e,t){e.exports=function(e){if(Symbol.iterator in Object(e)||"[object Arguments]"===Object.prototype.toString.call(e))return Array.from(e)}},"../../node_modules/@babel/runtime/helpers/nonIterableSpread.js":
-/*!*****************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/nonIterableSpread.js ***!
-  \*****************************************************************************************************************************/
-/*! no static exports found */function(e,t){e.exports=function(){throw new TypeError("Invalid attempt to spread non-iterable instance")}},"../../node_modules/@babel/runtime/helpers/objectSpread.js":
-/*!************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/objectSpread.js ***!
-  \************************************************************************************************************************/
-/*! no static exports found */function(e,t,r){var n=r(/*! ./defineProperty */"../../node_modules/@babel/runtime/helpers/defineProperty.js");e.exports=function(e){for(var t=1;t<arguments.length;t++){var r=null!=arguments[t]?arguments[t]:{},o=Object.keys(r);"function"==typeof Object.getOwnPropertySymbols&&(o=o.concat(Object.getOwnPropertySymbols(r).filter((function(e){return Object.getOwnPropertyDescriptor(r,e).enumerable})))),o.forEach((function(t){n(e,t,r[t])}))}return e}},"../../node_modules/@babel/runtime/helpers/objectWithoutProperties.js":
-/*!***********************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/objectWithoutProperties.js ***!
-  \***********************************************************************************************************************************/
-/*! no static exports found */function(e,t,r){var n=r(/*! ./objectWithoutPropertiesLoose */"../../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js");e.exports=function(e,t){if(null==e)return{};var r,o,s=n(e,t);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(e);for(o=0;o<a.length;o++)r=a[o],t.indexOf(r)>=0||Object.prototype.propertyIsEnumerable.call(e,r)&&(s[r]=e[r])}return s}},"../../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js":
-/*!****************************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js ***!
-  \****************************************************************************************************************************************/
-/*! no static exports found */function(e,t){e.exports=function(e,t){if(null==e)return{};var r,n,o={},s=Object.keys(e);for(n=0;n<s.length;n++)r=s[n],t.indexOf(r)>=0||(o[r]=e[r]);return o}},"../../node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":
-/*!*************************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
-  \*************************************************************************************************************************************/
-/*! no static exports found */function(e,t,r){var n=r(/*! ../helpers/typeof */"../../node_modules/@babel/runtime/helpers/typeof.js"),o=r(/*! ./assertThisInitialized */"../../node_modules/@babel/runtime/helpers/assertThisInitialized.js");e.exports=function(e,t){return!t||"object"!==n(t)&&"function"!=typeof t?o(e):t}},"../../node_modules/@babel/runtime/helpers/setPrototypeOf.js":
 /*!**************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
   \**************************************************************************************************************************/
+/*! no static exports found */function(e,t){e.exports=function(e){return e&&e.__esModule?e:{default:e}}},"../../node_modules/@babel/runtime/helpers/interopRequireWildcard.js":
+/*!***************************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/interopRequireWildcard.js ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */function(e,t){e.exports=function(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var r in e)if(Object.prototype.hasOwnProperty.call(e,r)){var n=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,r):{};n.get||n.set?Object.defineProperty(t,r,n):t[r]=e[r]}return t.default=e,t}},"../../node_modules/@babel/runtime/helpers/iterableToArray.js":
+/*!********************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/iterableToArray.js ***!
+  \********************************************************************************************************************/
+/*! no static exports found */function(e,t){e.exports=function(e){if(Symbol.iterator in Object(e)||"[object Arguments]"===Object.prototype.toString.call(e))return Array.from(e)}},"../../node_modules/@babel/runtime/helpers/nonIterableSpread.js":
+/*!**********************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/nonIterableSpread.js ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */function(e,t){e.exports=function(){throw new TypeError("Invalid attempt to spread non-iterable instance")}},"../../node_modules/@babel/runtime/helpers/objectSpread.js":
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/objectSpread.js ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */function(e,t,r){var n=r(/*! ./defineProperty */"../../node_modules/@babel/runtime/helpers/defineProperty.js");e.exports=function(e){for(var t=1;t<arguments.length;t++){var r=null!=arguments[t]?arguments[t]:{},o=Object.keys(r);"function"==typeof Object.getOwnPropertySymbols&&(o=o.concat(Object.getOwnPropertySymbols(r).filter((function(e){return Object.getOwnPropertyDescriptor(r,e).enumerable})))),o.forEach((function(t){n(e,t,r[t])}))}return e}},"../../node_modules/@babel/runtime/helpers/objectWithoutProperties.js":
+/*!****************************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/objectWithoutProperties.js ***!
+  \****************************************************************************************************************************/
+/*! no static exports found */function(e,t,r){var n=r(/*! ./objectWithoutPropertiesLoose */"../../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js");e.exports=function(e,t){if(null==e)return{};var r,o,s=n(e,t);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(e);for(o=0;o<a.length;o++)r=a[o],t.indexOf(r)>=0||Object.prototype.propertyIsEnumerable.call(e,r)&&(s[r]=e[r])}return s}},"../../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js":
+/*!*********************************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */function(e,t){e.exports=function(e,t){if(null==e)return{};var r,n,o={},s=Object.keys(e);for(n=0;n<s.length;n++)r=s[n],t.indexOf(r)>=0||(o[r]=e[r]);return o}},"../../node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":
+/*!******************************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */function(e,t,r){var n=r(/*! ../helpers/typeof */"../../node_modules/@babel/runtime/helpers/typeof.js"),o=r(/*! ./assertThisInitialized */"../../node_modules/@babel/runtime/helpers/assertThisInitialized.js");e.exports=function(e,t){return!t||"object"!==n(t)&&"function"!=typeof t?o(e):t}},"../../node_modules/@babel/runtime/helpers/setPrototypeOf.js":
+/*!*******************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
+  \*******************************************************************************************************************/
 /*! no static exports found */function(e,t){function r(t,n){return e.exports=r=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e},r(t,n)}e.exports=r},"../../node_modules/@babel/runtime/helpers/toConsumableArray.js":
-/*!*****************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/toConsumableArray.js ***!
-  \*****************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/toConsumableArray.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */function(e,t,r){var n=r(/*! ./arrayWithoutHoles */"../../node_modules/@babel/runtime/helpers/arrayWithoutHoles.js"),o=r(/*! ./iterableToArray */"../../node_modules/@babel/runtime/helpers/iterableToArray.js"),s=r(/*! ./nonIterableSpread */"../../node_modules/@babel/runtime/helpers/nonIterableSpread.js");e.exports=function(e){return n(e)||o(e)||s()}},"../../node_modules/@babel/runtime/helpers/typeof.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/typeof.js ***!
-  \******************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/typeof.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */function(e,t){function r(e){return(r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function n(t){return"function"==typeof Symbol&&"symbol"===r(Symbol.iterator)?e.exports=n=function(e){return r(e)}:e.exports=n=function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":r(e)},n(t)}e.exports=n},"./src/Components/Dark/configContext.js":
 /*!**********************************************!*\
   !*** ./src/Components/Dark/configContext.js ***!
@@ -106,26 +106,26 @@
 /*!******************************!*\
   !*** external "react-redux" ***!
   \******************************/
-/*! no static exports found */function(e,t){e.exports=n}})},e.exports=n(r(108),r(0),r(1),r(92))},565:function(e,t,r){var n;window,n=function(e,t,r,n){return function(e){var t={};function r(n){if(t[n])return t[n].exports;var o=t[n]={i:n,l:!1,exports:{}};return e[n].call(o.exports,o,o.exports,r),o.l=!0,o.exports}return r.m=e,r.c=t,r.d=function(e,t,n){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)r.d(n,o,function(t){return e[t]}.bind(null,o));return n},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="",r(r.s="./src/Components/PageHeader/index.js")}({"../../node_modules/@babel/runtime/helpers/defineProperty.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/defineProperty.js ***!
-  \**************************************************************************************************************************/
-/*! no static exports found */function(e,t){e.exports=function(e,t,r){return t in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r,e}},"../../node_modules/@babel/runtime/helpers/extends.js":
+/*! no static exports found */function(e,t){e.exports=n}})},e.exports=n(r(58),r(1),r(0),r(56))},494:function(e,t,r){var n;window,n=function(e,t,r,n){return function(e){var t={};function r(n){if(t[n])return t[n].exports;var o=t[n]={i:n,l:!1,exports:{}};return e[n].call(o.exports,o,o.exports,r),o.l=!0,o.exports}return r.m=e,r.c=t,r.d=function(e,t,n){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)r.d(n,o,function(t){return e[t]}.bind(null,o));return n},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="",r(r.s="./src/Components/PageHeader/index.js")}({"../../node_modules/@babel/runtime/helpers/defineProperty.js":
 /*!*******************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/extends.js ***!
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/defineProperty.js ***!
   \*******************************************************************************************************************/
+/*! no static exports found */function(e,t){e.exports=function(e,t,r){return t in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r,e}},"../../node_modules/@babel/runtime/helpers/extends.js":
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/extends.js ***!
+  \************************************************************************************************************/
 /*! no static exports found */function(e,t){function r(){return e.exports=r=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e},r.apply(this,arguments)}e.exports=r},"../../node_modules/@babel/runtime/helpers/interopRequireDefault.js":
-/*!*********************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
-  \*********************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \**************************************************************************************************************************/
 /*! no static exports found */function(e,t){e.exports=function(e){return e&&e.__esModule?e:{default:e}}},"../../node_modules/@babel/runtime/helpers/objectWithoutProperties.js":
-/*!***********************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/objectWithoutProperties.js ***!
-  \***********************************************************************************************************************************/
+/*!****************************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/objectWithoutProperties.js ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */function(e,t,r){var n=r(/*! ./objectWithoutPropertiesLoose */"../../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js");e.exports=function(e,t){if(null==e)return{};var r,o,s=n(e,t);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(e);for(o=0;o<a.length;o++)r=a[o],t.indexOf(r)>=0||Object.prototype.propertyIsEnumerable.call(e,r)&&(s[r]=e[r])}return s}},"../../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js":
-/*!****************************************************************************************************************************************!*\
-  !*** /home/khala/Documents/git/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js ***!
-  \****************************************************************************************************************************************/
+/*!*********************************************************************************************************************************!*\
+  !*** /home/travis/build/RedHatInsights/frontend-components/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */function(e,t){e.exports=function(e,t){if(null==e)return{};var r,n,o={},s=Object.keys(e);for(n=0;n<s.length;n++)r=s[n],t.indexOf(r)>=0||(o[r]=e[r]);return o}},"./src/Components/Dark/configContext.js":
 /*!**********************************************!*\
   !*** ./src/Components/Dark/configContext.js ***!
@@ -150,7 +150,7 @@
 /*!***************************************************************************!*\
   !*** external "@patternfly/react-core/dist/js/components/Title/Title.js" ***!
   \***************************************************************************/
-/*! no static exports found */function(t,r){t.exports=e},classnames:
+/*! no static exports found */function(e,t){e.exports=r},classnames:
 /*!*****************************!*\
   !*** external "classnames" ***!
   \*****************************/
@@ -158,9 +158,9 @@
 /*!*****************************!*\
   !*** external "prop-types" ***!
   \*****************************/
-/*! no static exports found */function(e,t){e.exports=r},react:
+/*! no static exports found */function(t,r){t.exports=e},react:
 /*!************************!*\
   !*** external "react" ***!
   \************************/
-/*! no static exports found */function(e,t){e.exports=n}})},e.exports=n(r(161),r(108),r(0),r(1))}}]);
+/*! no static exports found */function(e,t){e.exports=n}})},e.exports=n(r(1),r(58),r(159),r(0))}}]);
 //# sourceMappingURL=Details~InsightsTabs~InventoryDetails~Overview~TopicAdmin~TopicDetails~TopicsList.js.map
