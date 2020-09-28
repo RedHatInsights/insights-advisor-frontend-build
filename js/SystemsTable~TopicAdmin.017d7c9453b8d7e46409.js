@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{1164:function(e,a,n){"use strict";var r=n(547),t=n(548),s=n(551),l=n(1035),c=n.n(l),m=n(1),p=n.n(m),u=n(12),d=n.n(u),i=function(e){var a=e.message;return p.a.createElement(p.a.Fragment,null,p.a.createElement(r.Card,{className:"ins-empty-rule-cards"},p.a.createElement(s.CardHeader,null,p.a.createElement(c.a,{size:"lg"})),p.a.createElement(t.CardBody,null,a)))};a.a=i,i.propTypes={message:d.a.string}}}]);
+//# sourceMappingURL=SystemsTable~TopicAdmin.017d7c9453b8d7e46409.js.map
