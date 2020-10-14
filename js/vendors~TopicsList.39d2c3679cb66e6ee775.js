@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{1878:function(n,o,r){var e=r(1581),p=r(1569),t=r(576),u=r(582),w=t((function(n,o){if(null==n)return[];var r=o.length;return r>1&&u(n,o[0],o[1])?o=[]:r>2&&u(o[0],o[1],o[2])&&(o=[o[0]]),p(n,e(o,1),[])}));n.exports=w}}]);
-//# sourceMappingURL=vendors~TopicsList.39d2c3679cb66e6ee775.js.map
