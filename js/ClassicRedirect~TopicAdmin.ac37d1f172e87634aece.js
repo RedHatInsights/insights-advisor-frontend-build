@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{1110:function(e,n,a){"use strict";var t=a(571),l=a(572),r=a(429),c=a(1),u=a.n(c);n.a=function(){return u.a.createElement(u.a.Fragment,null,u.a.createElement(t.Card,null,u.a.createElement(l.CardBody,null,u.a.createElement(r.List,null))))}}}]);
+//# sourceMappingURL=ClassicRedirect~TopicAdmin.ac37d1f172e87634aece.js.map
