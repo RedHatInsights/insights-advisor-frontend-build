@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{1174:function(n,o){n.exports=function(n,o){for(var r=-1,t=null==n?0:n.length,u=Array(t);++r<t;)u[r]=o(n[r],r,n);return u}},1194:function(n,o){n.exports=function(n){return function(o){return n(o)}}}}]);
-//# sourceMappingURL=vendors~Details~List~TopicDetails~TopicsList.9df5a162e2b6c8be5c64.js.map
