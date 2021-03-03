@@ -1,2 +1,0 @@
-(self.webpackChunkadvisor_frontend=self.webpackChunkadvisor_frontend||[]).push([[2489],{52489:(t,e,n)=>{"use strict";function r(t,e){return(r=Object.setPrototypeOf||function(t,e){return t.__proto__=e,t})(t,e)}n.d(e,{Z:()=>r})}}]);
-//# sourceMappingURL=2489.71065bf612920e4b25bb.js.map
