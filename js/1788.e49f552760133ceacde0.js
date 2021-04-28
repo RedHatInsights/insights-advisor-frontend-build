@@ -1,2 +1,2 @@
 (self.webpackChunkadvisor_frontend=self.webpackChunkadvisor_frontend||[]).push([[1788],{41788:(t,e,o)=>{"use strict";o.d(e,{Z:()=>n});var r=o(14665);function n(t,e){t.prototype=Object.create(e.prototype),t.prototype.constructor=t,(0,r.Z)(t,e)}}}]);
-//# sourceMappingURL=../sourcemaps/1788.609fa4e3fdc48619fb53.js.map
+//# sourceMappingURL=../sourcemaps/1788.bb8c26cce6e2b0833d76.js.map
