@@ -1,10 +1,11 @@
 {
     "advisor": {
         "entry": [
-            "/apps/advisor/advisor.3b69abea4efdc345a334.js"
+            "/apps/advisor/advisor.bd2acbab4b3ad0e8a4f7.js"
         ],
         "modules": [
-            "/apps/advisor/js/8412.5cf93939d30cbf47755b.js"
+            "/apps/advisor/js/8412.5cf93939d30cbf47755b.js",
+            "/apps/advisor/js/4933.539ecd5bca3a8dac11f2.js"
         ]
     }
 }
