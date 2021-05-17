@@ -1,11 +1,12 @@
 {
     "advisor": {
         "entry": [
-            "/beta/apps/advisor/advisor.72037fe5fcf266d31454.js"
+            "/beta/apps/advisor/advisor.3eb979bac44603af7fe9.js"
         ],
         "modules": [
             "/beta/apps/advisor/js/8412.d16279c23131e71845f4.js",
-            "/beta/apps/advisor/js/4933.824b30018c864a39efbc.js"
+            "/beta/apps/advisor/js/5910.391439a2c5f2debb4b2a.js",
+            "/beta/apps/advisor/js/1532.e52dac7484094a83d7dc.js"
         ]
     }
 }
