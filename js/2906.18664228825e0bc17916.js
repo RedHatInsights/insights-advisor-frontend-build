@@ -1,2 +1,2 @@
 (self.webpackChunkadvisor_frontend=self.webpackChunkadvisor_frontend||[]).push([[2906],{22122:(r,n,t)=>{"use strict";function e(){return(e=Object.assign||function(r){for(var n=1;n<arguments.length;n++){var t=arguments[n];for(var e in t)Object.prototype.hasOwnProperty.call(t,e)&&(r[e]=t[e])}return r}).apply(this,arguments)}t.d(n,{Z:()=>e})},19756:(r,n,t)=>{"use strict";function e(r,n){if(null==r)return{};var t,e,s={},o=Object.keys(r);for(e=0;e<o.length;e++)t=o[e],n.indexOf(t)>=0||(s[t]=r[t]);return s}t.d(n,{Z:()=>e})}}]);
-//# sourceMappingURL=../sourcemaps/2906.ef0ac45fb487d898a621.js.map
+//# sourceMappingURL=../sourcemaps/2906.0771f3dab32cd2b21bdd.js.map
