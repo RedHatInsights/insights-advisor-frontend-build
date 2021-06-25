@@ -1,12 +1,12 @@
 {
   "app_name": "advisor",
-  "src_hash": "23c6188184a0b0349a3a5ff973c49d9c6c16bcef",
+  "src_hash": "cecf5af52c1d99f26919d81ecb28ecfc52bb26cb",
   "src_tag": "",
   "src_branch": "prod-beta",
-  "patternfly_dependencies": ["@patternfly/patternfly@4.96.2","@patternfly/react-core@4.128.2","@patternfly/react-icons@4.10.11","@patternfly/react-table@4.27.24","@patternfly/react-tokens@4.11.12"],
+  "patternfly_dependencies": ["@patternfly/patternfly@4.115.2","@patternfly/react-core@4.135.0","@patternfly/react-icons@4.11.0","@patternfly/react-table@4.29.0","@patternfly/react-tokens@4.12.0"],
   "travis": {
     "event_type": "push",
-    "build_number": "4587",
-    "build_web_url": "https://travis-ci.com/RedHatInsights/insights-advisor-frontend/builds/230862785"
+    "build_number": "4593",
+    "build_web_url": "https://travis-ci.com/RedHatInsights/insights-advisor-frontend/builds/230878998"
   }
 }
