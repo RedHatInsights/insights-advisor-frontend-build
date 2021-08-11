@@ -1,2 +1,2 @@
 "use strict";(self.webpackChunkadvisor_frontend=self.webpackChunkadvisor_frontend||[]).push([[891],{46891:(e,n,t)=>{t.d(n,{Z:()=>d});var r=t(2095),l=t(85962),a=t(24561),u=t(93264),c=t.n(u);const d=function(){return c().createElement(c().Fragment,null,c().createElement(r.Card,null,c().createElement(l.CardBody,null,c().createElement(a.aV,null))))}}}]);
-//# sourceMappingURL=../sourcemaps/891.02b62833e2c8cd6757f9.js.map
+//# sourceMappingURL=../sourcemaps/891.d6fd45a7bb565b265c71.js.map
