@@ -1,0 +1,1 @@
+(self.webpackChunkadvisor_frontend=self.webpackChunkadvisor_frontend||[]).push([[550],{69550:(e,r,s)=>{"use strict";s.r(r),s.d(r,{default:()=>a.Z});var a=s(87533)}}]);
