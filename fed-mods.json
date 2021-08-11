@@ -1,12 +1,13 @@
 {
     "advisor": {
         "entry": [
-            "/apps/advisor/advisor.26ea188e660301a1ed0a.js"
+            "/apps/advisor/advisor.29fac519b769339da599.js"
         ],
         "modules": [
             "/apps/advisor/js/412.f972f8540258cb062698.js",
             "/apps/advisor/js/910.d597ad8fb5a4b845a8ce.js",
-            "/apps/advisor/js/33.8461dedb1b5df531fd17.js"
+            "/apps/advisor/js/33.8461dedb1b5df531fd17.js",
+            "/apps/advisor/js/550.f1525e5fb74451d60624.js"
         ]
     }
 }
