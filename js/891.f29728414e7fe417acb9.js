@@ -1,2 +1,2 @@
 (self.webpackChunkadvisor_frontend=self.webpackChunkadvisor_frontend||[]).push([[891],{46891:(e,n,t)=>{"use strict";t.d(n,{Z:()=>d});var r=t(2095),l=t(85962),a=t(24561),u=t(93264),c=t.n(u);const d=function(){return c().createElement(c().Fragment,null,c().createElement(r.Card,null,c().createElement(l.CardBody,null,c().createElement(a.aV,null))))}}}]);
-//# sourceMappingURL=../sourcemaps/891.343d0b7e3513e91d7a1e.js.map
+//# sourceMappingURL=../sourcemaps/891.d03e25ad7a1a15b48d08.js.map
