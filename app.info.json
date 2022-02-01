@@ -1,13 +1,13 @@
 {
   "app_name": "advisor",
-  "src_hash": "fd30060dba78a87bfe42bfd8efc7fc3dc5bfd219",
+  "src_hash": "a09992fe58d6529a9d596a6dfd14b1804840279b",
   "src_tag": "",
   "src_branch": "master",
   "patternfly_dependencies": ["@patternfly/patternfly@4.132.2","@patternfly/react-core@4.152.4","@patternfly/react-icons@4.11.14","@patternfly/react-table@4.29.58","@patternfly/react-tokens@4.12.15"],
   "rh_cloud_services_dependencies": ["@redhat-cloud-services/frontend-components@3.6.1","@redhat-cloud-services/frontend-components-charts@3.2.1","@redhat-cloud-services/frontend-components-notifications@3.2.5","@redhat-cloud-services/frontend-components-pdf-generator@2.6.7","@redhat-cloud-services/frontend-components-remediations@3.2.7","@redhat-cloud-services/frontend-components-translations@3.2.3","@redhat-cloud-services/frontend-components-utilities@3.2.8"],
   "travis": {
     "event_type": "push",
-    "build_number": "4976",
-    "build_web_url": "https://app.travis-ci.com/RedHatInsights/insights-advisor-frontend/builds/245657555"
+    "build_number": "4988",
+    "build_web_url": "https://app.travis-ci.com/RedHatInsights/insights-advisor-frontend/builds/245752603"
   }
 }
