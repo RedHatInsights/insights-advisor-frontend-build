@@ -1,0 +1,1 @@
+(self.webpackChunkadvisor_frontend=self.webpackChunkadvisor_frontend||[]).push([[1027],{91027:()=>{}}]);
