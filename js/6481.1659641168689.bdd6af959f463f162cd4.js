@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkadvisor_frontend=self.webpackChunkadvisor_frontend||[]).push([[6481],{46481:(t,a,e)=>{e.d(a,{l:()=>o,Z:()=>n});const o={name:"--pf-c-tooltip--MaxWidth",value:"18.75rem",var:"var(--pf-c-tooltip--MaxWidth)"},n=o}}]);
-//# sourceMappingURL=../sourcemaps/6481.f0d57c34e1bdddde9546734777ee3b54.js.map
