@@ -1,1 +1,0 @@
-(self.webpackChunkadvisor_frontend=self.webpackChunkadvisor_frontend||[]).push([[7625],{37625:()=>{}}]);
