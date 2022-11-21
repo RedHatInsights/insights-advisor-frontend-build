@@ -1,14 +1,13 @@
 {
     "advisor": {
         "entry": [
-            "/beta/apps/advisor/advisor.1667998910692.e84ad0c1b2576dcff046.js"
+            "/beta/apps/advisor/advisor.1669037136925.ab8e4d6f1f1ab8e51ea4.js"
         ],
         "modules": [
-            "/beta/apps/advisor/js/4315.1667998910616.e84ad0c1b2576dcff046.js",
-            "/beta/apps/advisor/css/4315.a84189e94be0023aeb32.css",
-            "/beta/apps/advisor/js/8528.1667998910616.e84ad0c1b2576dcff046.js",
-            "/beta/apps/advisor/css/8528.68376bd30ce612c2d893.css",
-            "/beta/apps/advisor/js/1384.1667998910616.e84ad0c1b2576dcff046.js"
+            "/beta/apps/advisor/js/2156.1669037136841.ab8e4d6f1f1ab8e51ea4.js",
+            "/beta/apps/advisor/css/2156.007e3dbb281a8eb45003.css",
+            "/beta/apps/advisor/js/1002.1669037136841.ab8e4d6f1f1ab8e51ea4.js",
+            "/beta/apps/advisor/css/1002.6f08aca5d8c238355b75.css"
         ]
     }
 }
