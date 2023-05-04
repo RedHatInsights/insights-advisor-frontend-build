@@ -1,2 +1,0 @@
-(self.webpackChunkadvisor_frontend=self.webpackChunkadvisor_frontend||[]).push([[8446],{18446:(n,e,r)=>{var o=r(90939);n.exports=function(n,e){return o(n,e)}}}]);
-//# sourceMappingURL=../sourcemaps/8446.7f82b196a657a86e4528eac9aeb7e142.js.map
