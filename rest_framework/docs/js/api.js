@@ -1,1 +1,321 @@
-var responseDisplay="data",coreapi=window.coreapi,schema=window.schema;function normalizeKeys(e){for(var a=[],t=0;t<e.length;t++)a=a.concat(e[t].split(" > "));return a}function normalizeHTTPHeader(e){return(e.charAt(0).toUpperCase()+e.substring(1)).replace(/-(.)/g,(function(e){return e.toUpperCase()})).replace(/(Www)/g,(function(e){return"WWW"})).replace(/(Xss)/g,(function(e){return"XSS"})).replace(/(Md5)/g,(function(e){return"MD5"}))}function formEntries(e){var a=new FormData(e);if(void 0!==a.entries)return Array.from(a.entries());for(var t=[],s=0;s<e.elements.length;s++){var n=e.elements[s];if(n.name)if("file"===n.type)for(var i=0;i<n.files.length;i++)t.push([n.name,n.files[i]]);else if("select-multiple"===n.type||"select-one"===n.type)for(i=0;i<n.selectedOptions.length;i++)t.push([n.name,n.selectedOptions[i].value]);else"checkbox"===n.type?n.checked&&t.push([n.name,n.value]):t.push([n.name,n.value])}return t}$((function(){var e=$("#selected-authentication"),a=$("#auth-control"),t=$("#auth_token_modal"),s=$("#auth_basic_modal"),n=$("#auth_session_modal");$("#language-control li").click((function(e){e.preventDefault();var a=$(this).find("a"),t=$(this).closest("ul").find("li").find("a"),s=a.data("language");t.not('[data-language="'+s+'"]').parent().removeClass("active"),t.filter('[data-language="'+s+'"]').parent().addClass("active"),$("#selected-language").text(s);var n=$("pre.highlight");n.not('[data-language="'+s+'"]').addClass("hide"),n.filter('[data-language="'+s+'"]').removeClass("hide")})),$("form.api-interaction").submit((function(e){e.preventDefault();for(var a=$(this).closest("form"),t=a.find(".request-method"),s=a.find(".request-url"),n=a.closest(".modal-content").find(".toggle-view"),i=a.find(".response-status-code"),o=a.find(".meta"),r=a.find(".response-raw-response"),l=a.find(".request-awaiting"),d=a.find(".response-raw"),c=a.find(".response-data"),u=normalizeKeys(a.data("key")),h={},f=formEntries(a.get()[0]),m=0;m<f.length;m++){var p=f[m],v=p[0],w=p[1],C=a.find('[name="'+v+'"]').data("type")||"string";if("integer"===C&&w){var g=parseInt(w);isNaN(g)||(h[v]=g)}else if("number"===C&&w)g=parseFloat(w),isNaN(g)||(h[v]=g);else if("boolean"===C&&w)void 0!==(g={true:!0,false:!1}[w.toLowerCase()])&&(h[v]=g);else if("array"===C&&w)try{h[v]=JSON.parse(w)}catch(e){}else if("object"===C&&w)try{h[v]=JSON.parse(w)}catch(e){}else"string"===C&&w&&(h[v]=w)}a.find(":checkbox").each((function(e){var a=$(this).attr("name");h.hasOwnProperty(a)||(h[a]=!1)}));var b={requestCallback:function(e){var a=document.createElement("a");a.href=e.url;var n=e.options.method,i=a.pathname+a.hash+a.search;t.text(n),s.text(i)},responseCallback:function(e,a){n.removeClass("hide"),i.removeClass("label-success").removeClass("label-danger"),e.ok?i.addClass("label-success"):i.addClass("label-danger"),i.text(e.status),o.removeClass("hide");var t="HTTP/1.1 "+e.status+" "+e.statusText+"\n";e.headers.forEach((function(e,a){t+=normalizeHTTPHeader(a)+": "+e+"\n"})),a&&(t+="\n"+a),r.text(t)}};window.auth&&"token"===window.auth.type?b.auth=new coreapi.auth.TokenAuthentication({scheme:window.auth.scheme,token:window.auth.token}):window.auth&&"basic"===window.auth.type?b.auth=new coreapi.auth.BasicAuthentication({username:window.auth.username,password:window.auth.password}):window.auth&&"session"===window.auth.type&&(b.auth=new coreapi.auth.SessionAuthentication({csrfCookieName:"csrftoken",csrfHeaderName:"X-CSRFToken"})),new coreapi.Client(b).action(schema,u,h).then((function(e){var a=JSON.stringify(e,null,2);l.addClass("hide"),d.addClass("hide"),c.addClass("hide").text("").jsonView(a),"data"===responseDisplay?c.removeClass("hide"):d.removeClass("hide")})).catch((function(e){var a=JSON.stringify(e.content,null,2);l.addClass("hide"),d.addClass("hide"),c.addClass("hide").text("").jsonView(a),"data"===responseDisplay?c.removeClass("hide"):d.removeClass("hide")}))})),$(".toggle-view button").click((function(){var e=$(this).closest(".modal-content"),a=e.find(".response-raw"),t=e.find(".response-data");responseDisplay=$(this).data("display-toggle"),$(this).removeClass("btn-default").addClass("btn-info").siblings().removeClass("btn-info"),"raw"===responseDisplay?(a.removeClass("hide"),t.addClass("hide")):(t.removeClass("hide"),a.addClass("hide"))})),a.find("[data-auth='none']").click((function(t){t.preventDefault(),window.auth=null,e.text("none"),a.find("[data-auth]").closest("li").removeClass("active"),a.find("[data-auth='none']").closest("li").addClass("active")})),$("form.authentication-token-form").submit((function(s){s.preventDefault();var n=$(this).closest("form"),i=n.find("input#scheme").val(),o=n.find("input#token").val();window.auth={type:"token",scheme:i,token:o},e.text("token"),a.find("[data-auth]").closest("li").removeClass("active"),a.find("[data-auth='token']").closest("li").addClass("active"),t.modal("hide")})),$("form.authentication-basic-form").submit((function(t){t.preventDefault();var n=$(this).closest("form"),i=n.find("input#username").val(),o=n.find("input#password").val();window.auth={type:"basic",username:i,password:o},e.text("basic"),a.find("[data-auth]").closest("li").removeClass("active"),a.find("[data-auth='basic']").closest("li").addClass("active"),s.modal("hide")})),$("form.authentication-session-form").submit((function(t){t.preventDefault(),window.auth={type:"session"},e.text("session"),a.find("[data-auth]").closest("li").removeClass("active"),a.find("[data-auth='session']").closest("li").addClass("active"),n.modal("hide")}))}));
+var responseDisplay = 'data'
+var coreapi = window.coreapi
+var schema = window.schema
+
+function normalizeKeys (arr) {
+  var _normarr = [];
+  for (var i = 0; i < arr.length; i++) {
+    _normarr = _normarr.concat(arr[i].split(' > '));
+  }
+  return _normarr;
+}
+
+function normalizeHTTPHeader (str) {
+  // Capitalize HTTP headers for display.
+  return (str.charAt(0).toUpperCase() + str.substring(1))
+    .replace(/-(.)/g, function ($1) {
+      return $1.toUpperCase()
+    })
+    .replace(/(Www)/g, function ($1) {
+      return 'WWW'
+    })
+    .replace(/(Xss)/g, function ($1) {
+      return 'XSS'
+    })
+    .replace(/(Md5)/g, function ($1) {
+      return 'MD5'
+    })
+}
+
+function formEntries (form) {
+  // Polyfill for new FormData(form).entries()
+  var formData = new FormData(form)
+  if (formData.entries !== undefined) {
+    return Array.from(formData.entries())
+  }
+
+  var entries = []
+
+  for (var i = 0; i < form.elements.length; i++) {
+    var element = form.elements[i]
+
+    if (!element.name) {
+      continue
+    }
+
+    if (element.type === 'file') {
+      for (var j = 0; j < element.files.length; j++) {
+        entries.push([element.name, element.files[j]])
+      }
+    } else if (element.type === 'select-multiple' || element.type === 'select-one') {
+      for (var j = 0; j < element.selectedOptions.length; j++) {
+        entries.push([element.name, element.selectedOptions[j].value])
+      }
+    } else if (element.type === 'checkbox') {
+      if (element.checked) {
+        entries.push([element.name, element.value])
+      }
+    } else {
+      entries.push([element.name, element.value])
+    }
+  }
+
+  return entries
+}
+
+$(function () {
+  var $selectedAuthentication = $('#selected-authentication')
+  var $authControl = $('#auth-control')
+  var $authTokenModal = $('#auth_token_modal')
+  var $authBasicModal = $('#auth_basic_modal')
+  var $authSessionModal = $('#auth_session_modal')
+
+  // Language Control
+  $('#language-control li').click(function (event) {
+    event.preventDefault()
+    var $languageMenuItem = $(this).find('a')
+    var $languageControls = $(this).closest('ul').find('li')
+    var $languageControlLinks = $languageControls.find('a')
+    var language = $languageMenuItem.data('language')
+
+    $languageControlLinks.not('[data-language="' + language + '"]').parent().removeClass('active')
+    $languageControlLinks.filter('[data-language="' + language + '"]').parent().addClass('active')
+
+    $('#selected-language').text(language)
+
+    var $codeBlocks = $('pre.highlight')
+    $codeBlocks.not('[data-language="' + language + '"]').addClass('hide')
+    $codeBlocks.filter('[data-language="' + language + '"]').removeClass('hide')
+  })
+
+  // API Explorer
+  $('form.api-interaction').submit(function (event) {
+    event.preventDefault()
+
+    var $form = $(this).closest('form')
+    var $requestMethod = $form.find('.request-method')
+    var $requestUrl = $form.find('.request-url')
+    var $toggleView = $form.closest('.modal-content').find('.toggle-view')
+    var $responseStatusCode = $form.find('.response-status-code')
+    var $meta = $form.find('.meta')
+    var $responseRawResponse = $form.find('.response-raw-response')
+    var $requestAwaiting = $form.find('.request-awaiting')
+    var $responseRaw = $form.find('.response-raw')
+    var $responseData = $form.find('.response-data')
+    var key = normalizeKeys($form.data('key'))
+    var params = {}
+    var entries = formEntries($form.get()[0])
+
+    for (var i = 0; i < entries.length; i++) {
+      var entry = entries[i]
+      var paramKey = entry[0]
+      var paramValue = entry[1]
+      var $elem = $form.find('[name="' + paramKey + '"]')
+      var dataType = $elem.data('type') || 'string'
+
+      if (dataType === 'integer' && paramValue) {
+        var value = parseInt(paramValue)
+        if (!isNaN(value)) {
+          params[paramKey] = value
+        }
+      } else if (dataType === 'number' && paramValue) {
+        var value = parseFloat(paramValue)
+        if (!isNaN(value)) {
+          params[paramKey] = value
+        }
+      } else if (dataType === 'boolean' && paramValue) {
+        var value = {
+          'true': true,
+          'false': false
+        }[paramValue.toLowerCase()]
+        if (value !== undefined) {
+          params[paramKey] = value
+        }
+      } else if (dataType === 'array' && paramValue) {
+        try {
+          params[paramKey] = JSON.parse(paramValue)
+        } catch (err) {
+          // Ignore malformed JSON
+        }
+      } else if (dataType === 'object' && paramValue) {
+        try {
+          params[paramKey] = JSON.parse(paramValue)
+        } catch (err) {
+          // Ignore malformed JSON
+        }
+      } else if (dataType === 'string' && paramValue) {
+        params[paramKey] = paramValue
+      }
+    }
+
+    $form.find(':checkbox').each(function (index) {
+      // Handle unselected checkboxes
+      var name = $(this).attr('name')
+      if (!params.hasOwnProperty(name)) {
+        params[name] = false
+      }
+    })
+
+    function requestCallback (request) {
+      // Fill in the "GET /foo/" display.
+      var parser = document.createElement('a')
+      parser.href = request.url
+      var method = request.options.method
+      var path = parser.pathname + parser.hash + parser.search
+
+      $requestMethod.text(method)
+      $requestUrl.text(path)
+    }
+
+    function responseCallback (response, responseText) {
+      // Display the 'Data'/'Raw' control.
+      $toggleView.removeClass('hide')
+
+      // Fill in the "200 OK" display.
+      $responseStatusCode.removeClass('label-success').removeClass('label-danger')
+      if (response.ok) {
+        $responseStatusCode.addClass('label-success')
+      } else {
+        $responseStatusCode.addClass('label-danger')
+      }
+      $responseStatusCode.text(response.status)
+      $meta.removeClass('hide')
+
+      // Fill in the Raw HTTP response display.
+      var panelText = 'HTTP/1.1 ' + response.status + ' ' + response.statusText + '\n'
+      response.headers.forEach(function (header, key) {
+        panelText += normalizeHTTPHeader(key) + ': ' + header + '\n'
+      })
+      if (responseText) {
+        panelText += '\n' + responseText
+      }
+      $responseRawResponse.text(panelText)
+    }
+
+    // Instantiate a client to make the outgoing request.
+    var options = {
+      requestCallback: requestCallback,
+      responseCallback: responseCallback
+    }
+
+    // Setup authentication options.
+    if (window.auth && window.auth.type === 'token') {
+      // Header authentication
+      options.auth = new coreapi.auth.TokenAuthentication({
+        scheme: window.auth.scheme,
+        token: window.auth.token
+      })
+    } else if (window.auth && window.auth.type === 'basic') {
+      // Basic authentication
+      options.auth = new coreapi.auth.BasicAuthentication({
+        username: window.auth.username,
+        password: window.auth.password
+      })
+    } else if (window.auth && window.auth.type === 'session') {
+      // Session authentication
+      options.auth = new coreapi.auth.SessionAuthentication({
+        csrfCookieName: 'csrftoken',
+        csrfHeaderName: 'X-CSRFToken'
+      })
+    }
+
+    var client = new coreapi.Client(options)
+    client.action(schema, key, params).then(function (data) {
+      var response = JSON.stringify(data, null, 2)
+      $requestAwaiting.addClass('hide')
+      $responseRaw.addClass('hide')
+      $responseData.addClass('hide').text('').jsonView(response)
+
+      if (responseDisplay === 'data') {
+        $responseData.removeClass('hide')
+      } else {
+        $responseRaw.removeClass('hide')
+      }
+    }).catch(function (error) {
+      var response = JSON.stringify(error.content, null, 2)
+      $requestAwaiting.addClass('hide')
+      $responseRaw.addClass('hide')
+      $responseData.addClass('hide').text('').jsonView(response)
+
+      if (responseDisplay === 'data') {
+        $responseData.removeClass('hide')
+      } else {
+        $responseRaw.removeClass('hide')
+      }
+    })
+  })
+
+  // 'Data'/'Raw' control
+  $('.toggle-view button').click(function () {
+    var $modalContent = $(this).closest('.modal-content')
+    var $modalResponseRaw = $modalContent.find('.response-raw')
+    var $modalResponseData = $modalContent.find('.response-data')
+
+    responseDisplay = $(this).data('display-toggle')
+
+    $(this).removeClass('btn-default').addClass('btn-info').siblings().removeClass('btn-info')
+
+    if (responseDisplay === 'raw') {
+      $modalResponseRaw.removeClass('hide')
+      $modalResponseData.addClass('hide')
+    } else {
+      $modalResponseData.removeClass('hide')
+      $modalResponseRaw.addClass('hide')
+    }
+  })
+
+  // Authentication: none
+  $authControl.find("[data-auth='none']").click(function (event) {
+    event.preventDefault()
+    window.auth = null
+    $selectedAuthentication.text('none')
+    $authControl.find("[data-auth]").closest('li').removeClass('active')
+    $authControl.find("[data-auth='none']").closest('li').addClass('active')
+  })
+
+  // Authentication: token
+  $('form.authentication-token-form').submit(function (event) {
+    event.preventDefault()
+    var $form = $(this).closest('form')
+    var scheme = $form.find('input#scheme').val()
+    var token = $form.find('input#token').val()
+    window.auth = {
+      'type': 'token',
+      'scheme': scheme,
+      'token': token
+    }
+    $selectedAuthentication.text('token')
+    $authControl.find("[data-auth]").closest('li').removeClass('active')
+    $authControl.find("[data-auth='token']").closest('li').addClass('active')
+    $authTokenModal.modal('hide')
+  })
+
+  // Authentication: basic
+  $('form.authentication-basic-form').submit(function (event) {
+    event.preventDefault()
+    var $form = $(this).closest('form')
+    var username = $form.find('input#username').val()
+    var password = $form.find('input#password').val()
+    window.auth = {
+      'type': 'basic',
+      'username': username,
+      'password': password
+    }
+    $selectedAuthentication.text('basic')
+    $authControl.find("[data-auth]").closest('li').removeClass('active')
+    $authControl.find("[data-auth='basic']").closest('li').addClass('active')
+    $authBasicModal.modal('hide')
+  })
+
+  // Authentication: session
+  $('form.authentication-session-form').submit(function (event) {
+    event.preventDefault()
+    window.auth = {
+      'type': 'session'
+    }
+    $selectedAuthentication.text('session')
+    $authControl.find("[data-auth]").closest('li').removeClass('active')
+    $authControl.find("[data-auth='session']").closest('li').addClass('active')
+    $authSessionModal.modal('hide')
+  })
+})
