@@ -1,13 +1,12 @@
 {
     "advisor": {
         "entry": [
-            "/beta/apps/advisor/advisor.1683202192150.db3b742eccd40bfcb113.js"
+            "/apps/advisor/advisor.1683202759826.c0dcdffe3fb49a6b980e.js"
         ],
         "modules": [
-            "/beta/apps/advisor/js/6102.1683202192063.db3b742eccd40bfcb113.js",
-            "/beta/apps/advisor/css/6102.a1ae55520d128ef0d837.css",
-            "/beta/apps/advisor/js/1735.1683202192063.db3b742eccd40bfcb113.js",
-            "/beta/apps/advisor/css/1735.b5ea2fe308c25eeb8659.css"
+            "/apps/advisor/css/node_modules_redhat-cloud-services_frontend-components-notifications_esm_Notification_notific-db8edd.9dbe9f8a1ecbf3764aee.css",
+            "/apps/advisor/css/node_modules_patternfly_react-core_dist_esm_layouts_Stack_Stack_js-node_modules_patternfly_re-77a52f.5c4caa6e7055553ace42.css",
+            "/apps/advisor/js/node_modules_patternfly_react-core_dist_esm_layouts_Stack_Stack_js-node_modules_patternfly_re-77a52f.1683202759735.c0dcdffe3fb49a6b980e.js"
         ]
     }
 }
