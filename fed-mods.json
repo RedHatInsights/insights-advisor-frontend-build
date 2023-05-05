@@ -1,12 +1,12 @@
 {
     "advisor": {
         "entry": [
-            "/apps/advisor/advisor.1683202759826.c0dcdffe3fb49a6b980e.js"
+            "/apps/advisor/advisor.1683278795963.ccbeaf4fa79ec6d59050.js"
         ],
         "modules": [
             "/apps/advisor/css/node_modules_redhat-cloud-services_frontend-components-notifications_esm_Notification_notific-db8edd.9dbe9f8a1ecbf3764aee.css",
             "/apps/advisor/css/node_modules_patternfly_react-core_dist_esm_layouts_Stack_Stack_js-node_modules_patternfly_re-77a52f.5c4caa6e7055553ace42.css",
-            "/apps/advisor/js/node_modules_patternfly_react-core_dist_esm_layouts_Stack_Stack_js-node_modules_patternfly_re-77a52f.1683202759735.c0dcdffe3fb49a6b980e.js"
+            "/apps/advisor/js/node_modules_patternfly_react-core_dist_esm_layouts_Stack_Stack_js-node_modules_patternfly_re-77a52f.1683278795877.ccbeaf4fa79ec6d59050.js"
         ]
     }
 }
