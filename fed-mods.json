@@ -1,13 +1,11 @@
 {
-    "advisor": {
-        "entry": [
-            "/apps/advisor/advisor.1683646214452.ebe358a0df19e6f7aada.js"
-        ],
-        "modules": [
-            "/apps/advisor/js/6102.1683646214359.ebe358a0df19e6f7aada.js",
-            "/apps/advisor/css/6102.a1ae55520d128ef0d837.css",
-            "/apps/advisor/js/1735.1683646214359.ebe358a0df19e6f7aada.js",
-            "/apps/advisor/css/1735.b5ea2fe308c25eeb8659.css"
-        ]
-    }
+  "name": "advisor",
+  "version": "1.0.0",
+  "extensions": [],
+  "registrationMethod": "callback",
+  "baseURL": "/apps/advisor/",
+  "loadScripts": [
+    "advisor.aa5c7fa4e72116d43f3d.js"
+  ],
+  "buildHash": "aa5c7fa4e72116d43f3dfeb43c21bbad"
 }
