@@ -1,14 +1,14 @@
 {
   "app_name": "advisor",
   "node_version": "unknown",
-  "src_hash": "c998bda52165e60432572e5d6e50f7da4808e3e3",
+  "src_hash": "2ac21738d2c69e0d94cc4305ed8370fe425ee7cc",
   "src_tag": "",
   "src_branch": "master-stable",
   "patternfly_dependencies": ["@patternfly/patternfly@4.183.1","@patternfly/react-charts@6.94.18","@patternfly/react-core@4.276.8","@patternfly/react-icons@4.93.6","@patternfly/react-table@4.113.0","@patternfly/react-tokens@4.94.6"],
-  "rh_cloud_services_dependencies": ["@redhat-cloud-services/frontend-components-advisor-components@1.0.13","@redhat-cloud-services/frontend-components-charts@3.2.5","@redhat-cloud-services/frontend-components-notifications@3.2.7","@redhat-cloud-services/frontend-components-pdf-generator@2.6.19","@redhat-cloud-services/frontend-components-remediations@3.2.7","@redhat-cloud-services/frontend-components-translations@3.2.3","@redhat-cloud-services/frontend-components-utilities@3.5.0","@redhat-cloud-services/frontend-components@3.9.35"],
+  "rh_cloud_services_dependencies": ["@redhat-cloud-services/frontend-components-advisor-components@1.0.14","@redhat-cloud-services/frontend-components-charts@3.2.5","@redhat-cloud-services/frontend-components-notifications@3.2.7","@redhat-cloud-services/frontend-components-pdf-generator@2.6.19","@redhat-cloud-services/frontend-components-remediations@3.2.7","@redhat-cloud-services/frontend-components-translations@3.2.6","@redhat-cloud-services/frontend-components-utilities@3.5.0","@redhat-cloud-services/frontend-components@3.9.35"],
   "travis": {
     "event_type": "push",
-    "build_number": "6148",
-    "build_web_url": "https://app.travis-ci.com/RedHatInsights/insights-advisor-frontend/builds/264010547"
+    "build_number": "6174",
+    "build_web_url": "https://app.travis-ci.com/RedHatInsights/insights-advisor-frontend/builds/264152678"
   }
 }
