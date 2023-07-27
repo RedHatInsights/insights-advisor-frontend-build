@@ -5,7 +5,7 @@
   "registrationMethod": "callback",
   "baseURL": "/apps/advisor/",
   "loadScripts": [
-    "advisor.f590e8fdfea1cc544072.js"
+    "advisor.6bfedad32e1d274d82d1.js"
   ],
-  "buildHash": "f590e8fdfea1cc544072b2cf912a15ab"
+  "buildHash": "6bfedad32e1d274d82d154016d02b44e"
 }
