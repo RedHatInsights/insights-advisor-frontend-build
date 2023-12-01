@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkadvisor=self.webpackChunkadvisor||[]).push([[384],{46818:(s,a,e)=>{e.d(a,{$G:()=>m,E0:()=>o,P8:()=>c,WT:()=>d,kZ:()=>r});var i=e(78632);const r=()=>({className:i.Z.modifiers.breakWord}),o=()=>({className:i.Z.modifiers.fitContent}),c=()=>({className:i.Z.modifiers.nowrap}),m=()=>({className:i.Z.modifiers.truncate}),d=()=>({className:i.Z.modifiers.wrap})}}]);
+//# sourceMappingURL=../sourcemaps/RulesTable.d6c3c9b2925184e4097373c468aa6e2b.js.map
